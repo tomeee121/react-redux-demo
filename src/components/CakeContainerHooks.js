@@ -5,7 +5,7 @@ import { useDispatch } from 'react-redux'
 
 const CakeContainer = (props) => {
 
-const numOfCakes = useSelector(state => state.numOfCakes)
+const numOfCakes = useSelector(state => state.cake.numOfCakes)
 const dispatch = useDispatch()
 
 
